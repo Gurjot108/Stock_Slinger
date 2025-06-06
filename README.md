@@ -150,28 +150,7 @@ Open `http://localhost:3000` in your browser.
 
 ---
 
-## 📸 Screenshots
-
-| Dashboard | Company Page | Watchlist |
-|----------|--------------|-----------|
-| ![](./screenshots/dashboard.png) | ![](./screenshots/company.png) | ![](./screenshots/watchlist.png) |
-
----
-
-## ✨ Future Improvements
-
-- Add user stock portfolio with buy/sell logic
-- Add news filtering by ticker
-- Optimize API caching and performance
-
----
-
 ## 📄 License
 
 This project is licensed under the MIT License.
 
----
-
-## 👨‍💻 Author
-
-Built with ❤️ by [Gurjot Singh](https://github.com/gurjot217)
