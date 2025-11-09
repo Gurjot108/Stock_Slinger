@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from "react";
 import { useUser } from "@auth0/nextjs-auth0/client";
 import Watchlist from "../../components/watchlist/Watchlist";
+import FinanceChat from "../../components/chat/FinanceChat";
 
 const API_BASE_URL = `${process.env.NEXT_PUBLIC_API_URL}`;
 
@@ -168,6 +169,7 @@ const PortfolioPage = () => {
           <div className="bg-gray-800/40 backdrop-blur-lg rounded-3xl border border-gray-700/40 shadow-md p-8 md:p-10 mx-4">
             <Watchlist watchlist={watchlistData} onRemoveItem={removeItem} />
           </div>
+          <FinanceChat />
         </section>
       ) : (
         !isLoading && (
